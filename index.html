@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+<div id="input">
+	<p>Favor de introducir el nombre del sujeto:</p>
+  	Nombre: <input id="user" type="text" name="username"><br>
+  	<input type="submit" onclick="startQuiz()" value="Comenzar">
+</div>
+<div id="main" class="hidden">
+<div id="panel">
+	<img id="image" src="http://imgs.xkcd.com/comics/lunch.png">
+</div>
+<div id="controls">
+<button type="button" onclick="change(1)">1</button>
+<button type="button" onclick="change(2)">2</button>
+<button type="button" onclick="change(3)">3</button>
+<button type="button" onclick="change(4)">4</button>
+<button type="button" onclick="change(5)">5</button>
+ </div>
+ </div>
+ <div id="results">
+
+ </div>
+</body>
+</html>
